@@ -1,0 +1,98 @@
+@mixin font-style($font-size, $color) {
+    font-size: $font-size;
+    color: $color;
+}
+
+@mixin circle($value, $bg) {
+    min-width: $value;
+    width: $value;
+    height: $value;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg;
+}
+
+@mixin twoLinesEllipsis {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box ;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@mixin oneLinesEllipsis {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box ;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+@mixin mainShadow() {
+    -webkit-box-shadow: 0 5px 17px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 17px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 17px rgba(0, 0, 0, .2);
+}
+
+@mixin centre($axis: "both") {
+    position: absolute;
+    @if $axis=="y" {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    @if $axis=="x" {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    @if $axis=="both" {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+@mixin close-icon($value, $color) {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $value;
+    height: $value;
+    &::after {
+        content: "";
+        width: $value;
+        height: 2px;
+        display: block;
+        position: absolute;
+        background-color: $color;
+        transform: rotate(45deg);
+    }
+    &::before {
+        content: "";
+        width: $value;
+        height: 2px;
+        display: block;
+        position: absolute;
+        transform: rotate(-45deg);
+        background-color: $color;
+    }
+}

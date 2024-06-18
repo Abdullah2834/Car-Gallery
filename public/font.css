@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "SharpGroteskBold25-Regular";
+    src: local("SharpGroteskBold25-Regular"), url("/static/media/SharpGroteskBold25-Regular.eot");
+    src: local("SharpGroteskBold25-Regular"), url("/static/media/SharpGroteskBold25-Regular.eot?#iefix") format("embedded-opentype"), url("/static/media/SharpGroteskBold25-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+@font-face {
+    font-family: "SharpGroteskSmBold25-Regular";
+    src: local("SharpGroteskSmBold25-Regular"), url("/static/media/SharpGroteskSmBold25-Regular.eot");
+    src: local("SharpGroteskSmBold25-Regular"),url("/static/media/SharpGroteskSmBold25-Regular.eot?#iefix") format("embedded-opentype"), url("/static/media/SharpGroteskSmBold25-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: local("ProximaNova-Regular"), url("/static/media/ProximaNova-Regular.eot");
+    src: local("ProximaNova-Regular"),url("/static/media/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("/static/media/ProximaNova-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: local("ProximaNova-Black"), url("/static/media/ProximaNova-Black.eot");
+    src: local("ProximaNova-Black"),url("/static/media/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("/static/media/ProximaNova-Black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "SharpGroteskLight25-Regular";
+    src: local("SharpGroteskLight25-Regular"), url("/static/media/SharpGroteskLight25-Regular.eot");
+    src: local("SharpGroteskLight25-Regular"),url("/static/media/SharpGroteskLight25-Regular.eot?#iefix") format("embedded-opentype"), url("/static/media/SharpGroteskLight25-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "SharpGroteskBookburo";
+    src: local("SharpGroteskBookburo"), url("/static/media/SharpGroteskBookburo.eot");
+    src: local("SharpGroteskBookburo"),url("/static/media/SharpGroteskBookburo.eot?#iefix") format("embedded-opentype"), url("/static/media/SharpGroteskBookburo.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "SharpGroteskMedium25-Regular";
+    src: local("SharpGroteskMedium25-Regular"), url("/static/media/SharpGroteskMedium25-Regular.eot");
+    src: local("SharpGroteskMedium25-Regular"),url("/static/media/SharpGroteskMedium25-Regular.eot?#iefix") format("embedded-opentype"), url("/static/media/SharpGroteskMedium25-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
+
+@font-face {
+    font-family: "hondacom";
+    src: local("hondacom"), url("/static/media/hondacom.eot");
+    src: local("hondacom"), url("/static/media/hondacom.eot?#iefix") format("embedded-opentype"), url("/static/media/hondacom.woff") format("woff"), url("/static/media/hondacom.ttf") format("truetype"), url("/static/media/hondacom.svg#hondacom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
